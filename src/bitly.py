@@ -1,6 +1,6 @@
 '''
 Created on Aug 6, 2013
-source: http://segfault.in/2010/10/shorten-urls-using-python-and-bit-ly/
+http://www.pythonforbeginners.com/code-snippets-source-code/bitly-shortener-with-python/
 @author: mlecce
 '''
 #!/usr/bin/env python
