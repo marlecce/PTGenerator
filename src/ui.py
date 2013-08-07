@@ -4,7 +4,7 @@ Created on Aug 1, 2013
 @author: mlecce
 '''
 import wx
-import googl
+import bitly
  
 class MyApp(wx.Frame):
     def __init__(self):
@@ -65,7 +65,7 @@ class MyApp(wx.Frame):
         ''' Print a greeting constructed from
             the selections made by the user. '''
         print('%s, %s!' % (self.greeting.GetValue().title(),
-                           googl.shorten(self.recipient.GetValue())))
+                           bitly.shorten(self.recipient.GetValue())))
  
     def run(self):
         ''' Run the app '''
