@@ -38,7 +38,7 @@ class MyApp(wx.Frame):
         # Recipient entry
         self.recipient = wx.TextCtrl(parent=self.panel,
                                      size=(480, -1),
-                                     value='')
+                                     value='http://www.google.com')
  
         # Add the greeting combo to the hbox
         self.box.Add(self.recipient, 0, wx.TOP)

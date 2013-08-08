@@ -10,7 +10,6 @@ http://www.pythonforbeginners.com/code-snippets-source-code/bitly-shortener-with
 import bitly_api
  
 def shorten(url):
-    API_USER = ""
-    API_KEY = ""
-    b = bitly_api.BitLy(API_USER, API_KEY)
-    return b.shorten(url)
+    ACCESS_TOKEN = "your_access_token"
+    c = bitly_api.Connection(None, None, ACCESS_TOKEN, False)
+    return c.shorten(url)
